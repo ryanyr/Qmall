@@ -1,0 +1,273 @@
+ /* 全局样式 */
+ html{
+    font-size:100px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #edeef0;
+    padding-bottom:0.6rem;
+}
+
+/* 头部搜索 */
+header{
+    background: #f2f2f2;
+    height:0.55rem;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.search{
+    height:0.29rem;
+    border-radius:0.05rem;
+    background: #fff;
+    padding:0.03rem 0rem 0.03rem 0rem;
+    display: flex;
+    align-items: center;
+}
+.del{
+    font-size:0.15rem;
+    color:#838383;
+}
+.search img{
+    width:0.15rem;
+    height:0.15rem;
+    margin-left:0.1rem;
+    margin-right:0.1rem;
+}
+.search input{
+    border:0;
+    width:2.5rem;
+    height:0.25rem;
+}
+
+/* banner */
+.swiper-container {
+    width: 100%;
+    height:2rem;
+    background:#fff;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-pagination{
+    font-size:0.15rem;
+    text-align: right;
+}
+.swiper-pagination-fraction {
+    width:95% !important;
+}
+.swiper-slide img{
+    width:100%;
+    height:100%;
+}
+
+.benefit{
+    display: flex;
+    height:0.4rem;
+    justify-content: space-around;
+    align-items: center;
+    background:#fff;
+}
+.benefit_1{
+    display: flex;
+    font-size:0.12rem;
+    color:#acacac;
+}
+.benefit_1 img{
+    width:0.17rem;
+    height:0.17rem;
+}
+
+/* 第二个banner */
+.swiper-container1 {
+width: 100%;
+height:2rem;
+overflow: hidden;
+background: #fff;
+box-sizing: border-box;
+padding-left:0.1rem;
+}
+.swiper-slide1 {
+text-align: center;
+font-size: 18px;
+background: #fff;
+width: 45%;
+display:block;
+text-align: left;
+
+/* Center slide text vertically */
+/* display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center; */
+}
+.swiper-slide2 {
+text-align: center;
+font-size: 18px;
+background: #fff;
+width: 70%;
+display:block;
+text-align: left;
+}
+.swiper-slide1:nth-child(2) {
+width: 40%;
+/* background: beige; */
+}
+.swiper-slide1:nth-child(3) {
+width: 40%;
+/* background: aqua; */
+}
+
+.title{
+background:#fff;
+height:0.5rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top:0.1rem;
+}
+.title span{
+font-size:0.2rem;
+margin-left:0.1rem;
+}
+.title a{
+text-decoration:none;
+color:#acacac;
+font-size:0.15rem;
+margin-top:0.25rem;
+margin-right:0.1rem;
+}
+
+.swiper-slide1 p{
+font-size:0.15rem;
+}
+.swiper-slide1 p:nth-child(3){
+color:#777777;
+}
+.swiper-slide1 p:nth-child(4){
+color:red;
+}
+.slide_img img{
+height:1.2rem;
+}
+.slide-p{
+font-size:0.13rem;
+color:#acacac;
+}
+.content{
+display:flex;
+font-size:0.15rem;
+align-items: center;
+padding-bottom:0.1rem;
+background: #fff;
+}
+.content-img{
+width:1rem;
+height:1rem;
+}
+.content-img img{
+width:100%;
+height:100%;
+}
+.details{
+width:1.5rem;
+height:0.25rem;
+/* box-sizing: border-box; */
+border:0.01rem solid #f92d4e;
+border-radius:1rem;
+font-size:0.13rem;
+display: flex;
+align-items: center;
+margin-top:0.1rem;
+margin-bottom:0.05rem;
+}
+.details-l{
+width:0.6rem;
+text-align: center;
+line-height:0.25rem;
+color:#fff;
+background:#f92d4e;
+box-sizing: border-box;
+border-radius:0.7rem;
+}
+.details-r{
+font-weight: bold;
+margin-left:0.05rem;
+color:#f92d4e;
+}
+.details-a{
+color:#f92d4e;
+}
+.details-b{
+color:#f92d4e;
+font-size:0.2rem;
+font-weight:bold;
+}
+.details-d {
+color:#8e8e8e;
+text-decoration: line-through;
+margin-left:0.07rem;
+}
+.details-x{
+display: flex;
+align-items: center;
+}
+.details-c{
+display:block;
+width:0.8rem;
+height:0.3rem;
+color:#fff;
+text-align: center;
+line-height:0.3rem;
+background:#f92d4e;
+border-radius:0.05rem;
+text-decoration: none;
+margin-left:0.4rem;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:0.55rem;
+    background:#fff;
+    position: fixed;
+    bottom:0;
+    font-size:0.13rem;
+    z-index: 999;
+    color:#000;
+}
+.foot-img{
+    width:0.2rem;
+    /* height:1rem; */
+}
+.foot{
+    text-align: center;
+}

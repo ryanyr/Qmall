@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/collage.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/drink_03.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/drink_03.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/drink_03.jpg" alt="">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination collage-page"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    </div>
+    <div class="title">
+        <p>园区特供家侍欧夹心饼干</p>
+        <p>上班族早餐必备</p>
+        <p>自提</p>
+        <p>剩余<span>200</span>份</p>
+    </div>
+    <div class="benefit">
+        <div class="benefit-l">
+            <div class="benefit-ll">
+                <img src="images/icon_03.jpg" alt="">
+                <span>优品保证</span>
+            </div>
+            <div class="benefit-ll">
+                <img src="images/icon_03.jpg" alt="">
+                <span>安全保障</span>
+            </div>
+        </div>
+        <a class="benefit-r"><img src="images/benefit-r_03.jpg" alt=""></a>
+    </div>
+    <div class="benefit">
+            <div class="benefit-lx">
+                <span>已选择：</span><span>家侍欧巧克力夹心饼干</span>
+            </div>
+            <a class="benefit-r"><img src="images/benefit-r_03.jpg" alt=""></a>
+        </div>
+    <script src="js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+          },
+            direction: 'horizontal',
+            loop: true,
+            // autoplay:true,
+        //   navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        //   },
+        });
+    </script>
+</body>
+</html>
