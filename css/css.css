@@ -26,6 +26,7 @@ header{
     padding:0.03rem 0rem 0.03rem 0rem;
     display: flex;
     align-items: center;
+    margin: 0 0.15rem;
 }
 .del{
     font-size:0.15rem;
@@ -160,7 +161,7 @@ margin-left:0.1rem;
 text-decoration:none;
 color:#acacac;
 font-size:0.15rem;
-margin-top:0.25rem;
+/* margin-top:0.25rem; */
 margin-right:0.1rem;
 }
 
