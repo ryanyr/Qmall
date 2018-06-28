@@ -132,6 +132,10 @@ $(".popup-footb").click(function(){
     $(".popup").css("display","none")
 })
 
+$(".popblank").click(function(){
+    $(".popup").css("display","none")
+});
+
 //商品数量
 $('.popup-footar').each(function(){
 	   		var _this=$(this);
