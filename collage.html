@@ -4,28 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>商品详情</title>
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/collage.css">
 </head>
 <body>
+    <div class="popup">
+        <div class="popup-a">
+            <div class="popup-top">
+                <div class="popup-top-img">
+                    <img src="images/cooke_03.jpg" alt="">
+                </div>
+                <div>
+                    <p class="popup-w">¥26</p>
+                    <p>已选择：<span id="popup-heart">夹心饼干巧克力味</span></p>
+                </div>
+            </div>
+            <div class="popup-c">
+                <p>味道</p>
+                <div class="popup-d">
+                    <div class="popup-d1">夹心饼干巧克力味</div>
+                    <div class="popup-d2">夹心饼干巧香草味</div>
+                </div>
+            </div>
+            <div class="popup-foot">
+                <div class="popup-foota">
+                    <p>购买数量</p>
+                    <div class="popup-footar">
+                        <div class="popup-footar1">-</div>
+                        <input class="popup-footar2" value="1" />
+                        <div class="popup-footar3">+</div>
+                    </div>
+                </div>
+                <div class="popup-footb">确定</div>
+            </div>
+        </div>
+    </div>
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/drink_03.jpg" alt="">
+                <img src="images/top1_02.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="images/drink_03.jpg" alt="">
+                <img src="images/top1_02.jpg" alt="">
             </div>
             <div class="swiper-slide">
-                <img src="images/drink_03.jpg" alt="">
+                <img src="images/top1_02.jpg" alt="">
             </div>
         </div>
-        <!-- Add Pagination -->
+
         <div class="swiper-pagination collage-page"></div>
-        <!-- Add Arrows -->
-        <!-- <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div> -->
+    </div>
+    <div class="first">
+        <div class="first-a">
+            <img src="images/head3_03.jpg" alt="">
+            <span>10人成团</span>
+        </div>
+        <p>¥<span class="price-a">26</span></p>
+        <div class="price-c">
+            ¥<span class="price-d">38</span>
+        </div>
+        <div class="first-b">
+            <p>离活动结束</p>
+            <div class="first-c">
+                <div class="first-d" id="day_show_b">00</div>
+                <div>天</div>
+                <div class="first-d" id="hour_show_b">00</div>
+                <div>:</div>
+                <div class="first-d" id="minute_show_b">00</div>
+                <div>:</div>
+                <div class="first-d" id="second_show_b">00</div>
+            </div>
+        </div>
     </div>
     <div class="title">
         <p>园区特供家侍欧夹心饼干</p>
@@ -48,25 +98,99 @@
     </div>
     <div class="benefit">
             <div class="benefit-lx">
-                <span>已选择：</span><span>家侍欧巧克力夹心饼干</span>
+                <span>已选择：</span><span id="popup-heart1">家侍欧巧克力夹心饼干</span>
             </div>
             <a class="benefit-r"><img src="images/benefit-r_03.jpg" alt=""></a>
+    </div>
+    <div class="title-a">
+        <div>拼团玩法</div>
+        <div>
+            <span>详情规则</span>
+            <img src="images/much_03.jpg" alt="">
         </div>
+    </div>
+    <div class="title-b">
+        <div><span>2</span><span>人在拼团，可直接参与</span></div>
+            <div>
+                <span class="title-span">查看更多</span>
+                <img src="images/much_03.jpg" alt="">
+            </div>
+    </div>
+    <div class="fight">
+        <ul>
+            <li>
+                <div class="fightl">
+                    <img src="images/head.jpg" alt="">
+                    <span class="fightr-1">@Chen Xiao</span>
+                </div>
+                <div class="fightr">
+                    <div class="fightr-5">
+                        <p class="fightr-2">还差<span class="fightr-3">1人</span>拼成</p>
+                        <p class="fightr-4">
+                            剩余
+                            <strong id="hour_show_a">00</strong>
+                            <strong id="minute_show_a">00</strong>
+                            <strong id="second_show_a">00</strong></p>
+                    </div>
+                    <a href="">
+                        去参团>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="fightl">
+                    <img src="images/head2.jpg" alt="">
+                    <span class="fightr-1">A杨力-灰辉</span>
+                </div>
+                <div class="fightr">
+                    <div class="fightr-5">
+                        <p class="fightr-2">还差<span class="fightr-3">1人</span>拼成</p>
+                        <p class="fightr-4">
+                            剩余
+                            <strong id="hour_show">00</strong>
+                            <strong id="minute_show">00</strong>
+                            <strong id="second_show">00</strong>
+                        </p>
+                    </div>
+                    <a href="">
+                        去参团>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="choose">
+        <a class="choose-s" style="border-Bottom:0.01rem solid #000">图文详情</a>
+        <a class="choose-s" style="color:#939393">规格参数</a>
+        <a class="choose-s" style="color:#939393">品牌描述</a>
+    </div>
+    <div class="choose-ss" >
+        <img src="images/bg_02.jpg" alt="">
+    </div>
+    <div class="choose-ss" style="display:none">2</div>
+    <div class="choose-ss" style="display:none">3</div>
+    <div class="last">
+        <p>售前须知</p>
+        <p>取货时间：每周五</p>
+        <p>预定时间：每周六至周四下午5点</p>
+        <p>退款规则：每次团购活动，在每周四后则不可退款</p>
+        <p>货品说明：货品会因为鱼种类大小会有区别</p>
+    </div>
+    <footer>
+        <a class="foota" href="index.html">
+            <img src="images/home2_03.jpg" alt="">
+            <p>主页</p>
+        </a>
+        <a class="foota">
+            <img src="images/dete2_03.jpg" alt="">
+            <p>拼团说明</p>
+        </a>
+        <div class="footb">
+            <a href="">一键开团</a>
+        </div>
+    </footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/swiper.js"></script>
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-          pagination: {
-            el: '.swiper-pagination',
-            type: 'fraction',
-          },
-            direction: 'horizontal',
-            loop: true,
-            // autoplay:true,
-        //   navigation: {
-        //     nextEl: '.swiper-button-next',
-        //     prevEl: '.swiper-button-prev',
-        //   },
-        });
-    </script>
+    <script src="js/collage.js"></script>
 </body>
 </html>
